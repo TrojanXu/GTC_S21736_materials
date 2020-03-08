@@ -1,3 +1,5 @@
+FasterTransformer github: https://github.com/NVIDIA/DeepLearningExamples/tree/master/FasterTransformer
+
 1. Follow the Quick Start Guide to Build the FasterTransformer, this step will generate "./lib/libtf_fastertransformer.so"
 2. Follow the Quick Start Guide to generate the gemm_config.in by calling " ./bin/encoder_gemm 1 128 12 64 <is_use_fp16>"
 3. Modify sample/tensorflow_bert/profile_bert_inference.py line 136 to 
